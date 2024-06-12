@@ -1,0 +1,66 @@
+body {
+    background-image: url('background.jpg!w700wp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    text-align: center;
+    margin-top: -350px;
+    margin-right: -275px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  }
+  
+  .calculator {
+    width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border: 2px solid black;
+  }
+  
+  input[type="text"] {
+    width: 92%;
+    padding: 10px;
+    font-size: 21px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 1px solid white;
+  }
+  
+  button:hover {
+    background-color: lightcoral;
+    transform: scale(1);
+    color: black;
+  }
+  
+  button:active {
+    background-color: pink;
+  }
+  
